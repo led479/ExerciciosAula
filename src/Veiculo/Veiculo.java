@@ -106,4 +106,6 @@ public class Veiculo {
         System.out.println("-----------------------------------");
     }
     
+    public void teste() {
+    }
 }
