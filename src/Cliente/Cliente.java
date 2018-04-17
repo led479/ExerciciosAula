@@ -1,9 +1,9 @@
 package Cliente;
 
-abstract public class Cliente {
+public abstract class Cliente {
     
-    String nome, cep;
-    int id, idade;
+    private String nome, cep;
+    private int id, idade;
 
     public String getCep() {
         return cep;
@@ -11,6 +11,22 @@ abstract public class Cliente {
 
     public void setCep(String cep) {
         this.cep = cep;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getIdade() {
